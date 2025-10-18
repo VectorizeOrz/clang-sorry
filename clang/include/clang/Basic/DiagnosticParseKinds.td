@@ -222,11 +222,11 @@ def err_expected_type : Error<"expected a type">;
 def err_expected_external_declaration : Error<"expected external declaration">;
 def err_extraneous_closing_brace : Error<"extraneous closing brace ('}')">;
 def err_expected_semi_declaration : Error<
-  "expected ';' at end of declaration">;
+  "对不起大人！(QAQ)都怪卑职设计语言考虑不周，每句都要用分号结尾，跪求您帮我在变量声明后面加个';'吧">;
 def err_expected_semi_decl_list : Error<
-  "expected ';' at end of declaration list">;
+  "对不起大人！(QAQ)都怪卑职设计语言考虑不周，每句都要用分号结尾，跪求您帮我在变量声明后面加个';'吧">;
 def ext_expected_semi_decl_list : ExtWarn<
-  "expected ';' at end of declaration list">;
+  "对不起大人！(QAQ)都怪卑职设计语言考虑不周，每句都要用分号结尾，跪求您帮我在变量声明后面加个';'吧">;
 def err_expected_member_name_or_semi : Error<
   "expected member name or ';' after declaration specifiers">;
 def err_function_declared_typedef : Error<
@@ -262,7 +262,7 @@ def err_expected_method_body : Error<"expected method body">;
 def err_declspec_after_virtspec : Error<
   "'%0' qualifier may not appear after the virtual specifier '%1'">;
 def err_invalid_token_after_toplevel_declarator : Error<
-  "expected ';' after top level declarator">;
+  "对不起大人！(QAQ)都怪卑职设计语言考虑不周，每句都要用分号结尾，跪求您帮我在后面加个';'吧">;
 def err_invalid_token_after_declarator_suggest_equal : Error<
   "invalid %0 at end of declaration; did you mean '='?">;
 def err_expected_statement : Error<"expected statement">;
@@ -274,15 +274,15 @@ def err_expected_lbrace_in_compound_literal : Error<
   "expected '{' in compound literal">;
 def err_expected_while : Error<"expected 'while' in do/while loop">;
 
-def err_expected_semi_after_stmt : Error<"expected ';' after %0 statement">;
-def err_expected_semi_after_expr : Error<"expected ';' after expression">;
+def err_expected_semi_after_stmt : Error<"对不起大人！(QAQ)都怪卑职设计语言考虑不周，每句都要用分号结尾，跪求您帮我在%0语句后面加个';'吧">;
+def err_expected_semi_after_expr : Error<"对不起大人！(QAQ)都怪卑职设计语言考虑不周，每句都要用分号结尾，跪求您帮我在表达式后面加个';'吧">;
 def warn_attr_in_secondary_block : ExtWarn<
   "ISO C does not allow an attribute list to appear here">,
   InGroup<DiagGroup<"c-attribute-extension">>;
 def err_extraneous_token_before_semi : Error<"extraneous '%0' before ';'">;
 
 def err_expected_semi_after_method_proto : Error<
-  "expected ';' after method prototype">;
+  "对不起大人！(QAQ)都怪卑职设计语言考虑不周，每句都要用分号结尾，跪求您帮我在函数原型后面加个';'吧">;
 def err_expected_semi_after_namespace_name : Error<
   "expected ';' after namespace name">;
 def err_unexpected_namespace_attributes_alias : Error<
@@ -310,7 +310,7 @@ def err_inline_nested_namespace_definition : Error<
 def err_expected_semi_after_attribute_list : Error<
   "expected ';' after attribute list">;
 def err_expected_semi_after_static_assert : Error<
-  "expected ';' after '%0'">;
+  "对不起大人！(QAQ)都怪卑职设计语言考虑不周，每句都要用分号结尾，跪求您帮我在%0后面加个';'吧 ">;
 def err_expected_semi_for : Error<"expected ';' in 'for' statement specifier">;
 def err_single_decl_assign_in_for_range : Error<
   "range-based 'for' statement uses ':', not '='">;

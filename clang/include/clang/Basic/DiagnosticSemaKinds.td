@@ -539,8 +539,7 @@ def warn_implicit_function_decl : Warning<
   "implicit declaration of function %0">,
   InGroup<ImplicitFunctionDeclare>, DefaultIgnore;
 def ext_implicit_function_decl_c99 : ExtWarn<
-  "call to undeclared function %0; ISO C99 and later do not support implicit "
-  "function declarations">, InGroup<ImplicitFunctionDeclare>, DefaultError;
+  "大人饶命啊！(TAT)小的记性太差，您用的%0函数我给忘了，要不您再定义一下？">, InGroup<ImplicitFunctionDeclare>, DefaultError;
 def note_function_suggestion : Note<"did you mean %0?">;
 
 def err_ellipsis_first_param : Error<
@@ -6084,7 +6083,7 @@ def err_unexpected_typedef : Error<
   "unexpected type name %0: expected expression">;
 def err_unexpected_namespace : Error<
   "unexpected namespace name %0: expected expression">;
-def err_undeclared_var_use : Error<"use of undeclared identifier %0">;
+def err_undeclared_var_use : Error<"大人息怒啊！您用的变量%0我找了半天都没找着啊，小的眼拙，还望大人明示(TAT)">;
 def ext_undeclared_unqual_id_with_dependent_base : ExtWarn<
   "use of undeclared identifier %0; "
   "unqualified lookup into dependent bases of class template %1 is a Microsoft extension">,
@@ -10920,8 +10919,8 @@ def ext_return_missing_expr : ExtWarn<
   "non-void %select{function|method}1 %0 should return a value">, DefaultError,
   InGroup<ReturnMismatch>;
 def ext_return_has_expr : ExtWarn<
-  "%select{void function|void method|constructor|destructor}1 %0 "
-  "should not return a value">,
+  "大人这可使不得！%select{空函数|空方法|构造函数|析构函数}1 %0返回一个值"
+  "我会精神错乱的，求求您换一个吧(TAT)">,
   DefaultError, InGroup<ReturnMismatch>;
 def ext_return_has_void_expr : Extension<
   "void %select{function|method|block}1 %0 should not return void expression">;
