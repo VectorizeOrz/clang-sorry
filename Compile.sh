@@ -10,4 +10,7 @@ ninja -C build -j8
 #ninja -C build check-all
 
 #Install
-sudo cp build/bin/clang-21 /usr/local/bin/clang-sorry
+sudo cmake --install build
+sudo rm -f /usr/local/bin/clang-sorry /usr/local/bin/clang-sorry++
+sudo ln -s /usr/local/bin/clang-21 /usr/local/bin/clang-sorry
+sudo ln -s /usr/local/bin/clang-21 /usr/local/bin/clang-sorry++
